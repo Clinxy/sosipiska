@@ -9,35 +9,77 @@
     <h1 id="h1">Блог начинающего Web-программиста!</h1>
 </header>
 <main>
-    <aside>
-        <nav>
+    <div class="nav">
             <section id="sec1">
-            <ul id="ul">
-                <a href="index.html">Главная</a><br>
-                <a href="page/news.html">Новости</a><br>
-                <a href="page/forum.html">Форум</a><br>
-                <a href="page/onas.html">О нас</a><br>
-                <a href="page/contact.html">Контакты</a><br>
-            </ul>
+                <table id="menutab">
+                    <td id="menutd">
+                        <ul id="ul">
+                            <a href="index.html">Главная</a><br>
+                            <a href="page/news.html">Новости</a><br>
+                            <a href="page/forum.html">Форум</a><br>
+                            <a href="page/onas.html">О нас</a><br>
+                            <a href="page/contact.html">Контакты</a><br>
+                        </ul>
+                    </td>
+                </table>
+
             </section>
-        </nav>
-
-    </aside>
+    </div>
+    <div class="main">
     <section>
-        <h2>Новостной дайджест</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam autem beatae cum dicta eaque expedita
+        <h2>Новостной дайджест</h2><hr>
+<table>
+    <tr>
+        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam autem beatae cum dicta eaque expedita
             explicabo fuga impedit ipsam libero magnam magni nisi officiis optio pariatur, quia recusandae, tempore.
-                Assumenda autem beatae consectetur delectus deleniti dignissimos dolore eveniet id laboriosam magnam minima
+            Assumenda autem beatae consectetur delectus deleniti dignissimos dolore eveniet id laboriosam magnam minima
             nam, quibusdam quisquam rem sequi tenetur ullam? Animi dignissimos, dolorem quibusdam quod repellat sequi
             similique ut voluptatem?
-                A, ad, consequatur culpa ea impedit laboriosam recusandae repudiandae sapiente, sequi soluta temporibus
+                   </td>
+            </tr>
+    <tr>
+        <td>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam autem beatae cum dicta eaque expedita
+            explicabo fuga impedit ipsam libero magnam magni nisi officiis optio pariatur, quia recusandae, tempore.
+            Assumenda autem beatae consectetur delectus deleniti dignissimos dolore eveniet id laboriosam magnam minima
+            nam, quibusdam quisquam rem sequi tenetur ullam? Animi dignissimos, dolorem quibusdam quod repellat sequi
+            similique ut voluptatem?
+            A, ad, consequatur culpa ea impedit laboriosam recusandae repudiandae sapiente, sequi soluta temporibus
             tenetur veniam voluptates. Aliquam autem distinctio eaque enim fugiat illum, iusto officiis porro quaerat
-            quam temporibus veritatis.</p>
+            quam temporibus veritatis.
+        </td>
+    </tr>
+</table><br>
+
+<form>
+    <input type="text" name="login" placeholder="Имя">
+    <textarea placeholder="Оставьте комментарий"></textarea>
+    <button type="submit" value="Отправить">Отправить</button>
+    <button type="reset" value="Стереть">Стереть</button>
+</form>
           </section>
+    </div>
+    <div class="submain">
+        <section id="sec3">
+            <table id="registertab">
+                <td id="registertd">
+                    <form>
+                        <p>Окно регистрации:</p>
+                        Логин:
+                        <input type="login" name="login" placeholder="Логин/E-Mail">
+                        Пароль:
+                        <input type="password" name="pass" placeholder="Пароль">
+                        <button type="submit" name="yes">Войти</button>
+                        <button type="reset" name="no">Сброс</button>
+                    </form>
+                </td>
+            </table>
+
+        </section>
+    </div>
 </main>
-<footer>
-    <p>Все права защищены, страницы заблокированны, деньги сохранены, имущество переписанно</p>
-</footer>
+<!--<footer>-->
+<!--    <p>Все права защищены, страницы заблокированны, деньги сохранены, имущество переписанно</p>-->
+<!--</footer>-->
 </body>
 </html>
